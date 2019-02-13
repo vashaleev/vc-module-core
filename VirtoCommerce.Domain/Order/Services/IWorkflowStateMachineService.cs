@@ -6,7 +6,7 @@ namespace VirtoCommerce.Domain.Order.Services
 {
     public interface IWorkflowStateMachineService
     {
-        void Validate(string workflowId);
+        void Validate(string workflowJson);
 
         IWorkflowStateMachine CreateStateMachine(string workflowId, string initialState = null);
     }
