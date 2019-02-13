@@ -44,6 +44,10 @@ namespace VirtoCommerce.Domain.Order.Model
 		public ICollection<LineItem> Items { get; set; }
 		public ICollection<Shipment> Shipments { get; set; }
 
+        /// <summary>
+        /// Identifier for workflow
+        /// </summary>
+        public string WorkflowId { get; set; }
 
         #region IHasDiscounts
         public ICollection<Discount> Discounts { get; set; }
