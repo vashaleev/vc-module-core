@@ -245,12 +245,15 @@
     <Compile Include="Order\Model\Search\CustomerOrderSearchCriteria.cs" />
     <Compile Include="Order\Model\Shipment.cs" />
     <Compile Include="Order\Model\WorkflowModel.cs" />
+    <Compile Include="Order\Model\WorkflowStateMachine\State.cs" />
+    <Compile Include="Order\Model\WorkflowStateMachine\Trigger.cs" />
     <Compile Include="Order\Services\ICustomerOrderService.cs" />
     <Compile Include="Order\Services\ICustomerOrderSearchService.cs" />
     <Compile Include="Inventory\Events\FulfillmentCenterChangingEvent.cs" />
     <Compile Include="Order\Services\ICustomerOrderTotalsCalculator.cs" />
     <Compile Include="Order\Services\IWorkflowSearchService.cs" />
     <Compile Include="Order\Services\IWorkflowService.cs" />
+    <Compile Include="Order\Services\IWorkflowStateMachineService.cs" />
     <Compile Include="Payment\Model\BankCardInfo.cs" />
     <Compile Include="Payment\Model\CaptureProcessPaymentEvaluationContext.cs" />
     <Compile Include="Payment\Model\CaptureProcessPaymentResult.cs" />
