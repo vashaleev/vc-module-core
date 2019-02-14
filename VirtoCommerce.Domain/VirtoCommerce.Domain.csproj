@@ -229,6 +229,7 @@
     <Compile Include="Inventory\Events\FulfillmentCenterChangedEvent.cs" />
     <Compile Include="Order\Events\OrderChangedEvent.cs" />
     <Compile Include="Order\Events\OrderChangeEvent.cs" />
+    <Compile Include="Order\Events\WorkflowChangedEvent.cs" />
     <Compile Include="Order\Events\WorkflowChangeEvent.cs" />
     <Compile Include="Order\Model\CustomerOrder.cs" />
     <Compile Include="Commerce\Model\IHaveDimension.cs" />
