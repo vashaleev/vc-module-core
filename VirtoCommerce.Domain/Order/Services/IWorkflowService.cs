@@ -6,6 +6,7 @@ namespace VirtoCommerce.Domain.Order.Services
     {
         WorkflowModel[] GetByIds(string[] workflowIds);
         void SaveChanges(WorkflowModel[] workflows);
+        void Update(WorkflowModel workflow);
         void Delete(string[] ids);
     }
 }
